@@ -1,0 +1,138 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: #0003b2;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 1.5rem;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 70px; /* Ensure content starts below the header */
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-field {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+.input-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.btn {
+  padding: 12px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+.btn.btn-register {
+  background-color: #28a745;
+}
+.btn.btn-register:hover {
+  background-color: #218838;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #666666;
+}
+p a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+p a:hover {
+  color: #0056b3;
+}
+
+/* Dashboard Styles */
+.dashboard-container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.dashboard-header {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dashboard-content {
+  font-size: 1rem;
+  color: #555555;
+}
+
+.logout-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 100px; /* Adjust margin to move button down */
+  transition: background-color 0.3s;
+}
+.logout-btn:hover {
+  background-color: #c82333;
+}/*# sourceMappingURL=style.css.map */
